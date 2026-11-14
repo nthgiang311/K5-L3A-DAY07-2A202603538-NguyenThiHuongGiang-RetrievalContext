@@ -124,7 +124,11 @@ def main():
     chunks = json.loads(args.chunks.read_text(encoding='utf-8'))
     questions = json.loads(args.questions.read_text(encoding='utf-8'))
     # Do not inspect held-out test evidence during dev work.
-    selected = [q for q in questions if q.get('split') == args.split]
+    selected = [
+        q for q in questions
+        if q.get("split") == args.split
+        and q.get("answerable", True)
+    ]
     validate(chunks, selected)
     started = time.perf_counter()
     index = TfidfIndex(chunks)
