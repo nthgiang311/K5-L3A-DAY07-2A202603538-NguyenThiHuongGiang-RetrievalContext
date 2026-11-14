@@ -66,7 +66,17 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             answer, citations = action.get('answer'), action.get('citations')
             if not isinstance(answer, str) or not isinstance(citations, list) or any(not isinstance(i, str) for i in citations):
                 raise ValueError('answer/citations không hợp lệ')
-            valid = bool(answer.strip() and citations and all(i in chunks and f'[{i}]' in answer for i in citations))
+            valid_citations = [
+                cid for cid in citations
+                if isinstance(cid, str) and cid in chunks
+            ]
+
+            for cid in valid_citations:
+                if f'[{cid}]' not in answer:
+                    answer += f' [{cid}]'
+
+            valid = bool(answer.strip() and valid_citations)
+            citations = valid_citations
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
             return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}

@@ -1,0 +1,154 @@
+import json
+from pathlib import Path
+
+questions = [
+    {
+        "id": "D01", "split": "dev",
+        "question": "What makes a function a special type of relation?",
+        "expected_answer": "Each element of the first set is related to exactly one element of the second set.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 16,
+                  "evidence": "A function is a special type of relation in which each element of the first set is related to exactly one element of the second set."}]
+    },
+    {
+        "id": "D02", "split": "dev",
+        "question": "What are the input and output of a function?",
+        "expected_answer": "The element of the first set is the input; the element of the second set is the output.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 16,
+                  "evidence": "The element of the first set is called the input; the element of the second set is called the output."}]
+    },
+    {
+        "id": "D03", "split": "dev",
+        "question": "What three components does a function consist of?",
+        "expected_answer": "A set of inputs, a set of outputs, and a rule assigning each input to exactly one output.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 16,
+                  "evidence": "A function consists of a set of inputs, a set of outputs, and a rule for assigning each input to exactly one output."}]
+    },
+    {
+        "id": "D04", "split": "dev",
+        "question": "What is the domain of a function?",
+        "expected_answer": "The set of inputs.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 16,
+                  "evidence": "The set of inputs is called the domain of the function."}]
+    },
+    {
+        "id": "D05", "split": "dev",
+        "question": "What is the range of a function?",
+        "expected_answer": "The set of outputs.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 16,
+                  "evidence": "The set of outputs is called the range of the function."}]
+    },
+    {
+        "id": "D06", "split": "dev",
+        "question": "Can two different inputs of a function produce the same output?",
+        "expected_answer": "Yes. Two different inputs can be sent to the same output.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 17,
+                  "evidence": "Although each input can be sent to only one output, two different inputs can be sent to the same output."}]
+    },
+    {
+        "id": "D07", "split": "dev",
+        "question": "What are three common ways to represent a function?",
+        "expected_answer": "A table, a graph, or a formula.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 20,
+                  "evidence": "Typically, a function is represented using one or more of the following tools:"}]
+    },
+    {
+        "id": "D08", "split": "dev",
+        "question": "How can tables and formulas be used together with graphs?",
+        "expected_answer": "Values from a table can be plotted on a graph, or a table can be created from a formula.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 20,
+                  "evidence": "we can plot on a graph the values from a table or create a table from a formula."}]
+    },
+    {
+        "id": "D09", "split": "dev",
+        "question": "Can we determine the exact temperature at times when no measurements were recorded?",
+        "expected_answer": "No. We cannot make a definitive conclusion about the temperature at unrecorded times.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 21,
+                  "evidence": "we cannot make any definitive conclusion regarding what the temperature was at any time for which the temperature was not recorded"}]
+    },
+    {
+        "id": "D10", "split": "dev",
+        "question": "What is the main rule of the Vertical Line Test?",
+        "expected_answer": "Every vertical line must intersect the graph of a function no more than once.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 22,
+                  "evidence": "every vertical line that may be drawn intersects the graph of no more than once."}]
+    },
+    {
+        "id": "D11", "split": "dev",
+        "question": "What does it mean if a vertical line intersects a set of points more than once?",
+        "expected_answer": "The set of points does not represent a function.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 22,
+                  "evidence": "If any vertical line intersects a set of points more than once, the set of points does not represent a function."}]
+    },
+    {
+        "id": "D12", "split": "dev",
+        "question": "Can a function be increasing on one interval and decreasing on another?",
+        "expected_answer": "Yes. A function can increase on some intervals and decrease on others.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 25,
+                  "evidence": "a function can be increasing on some interval or intervals and decreasing over a different interval or intervals."}]
+    },
+    {
+        "id": "D13", "split": "dev",
+        "question": "How can a composite function be viewed conceptually?",
+        "expected_answer": "As a two-step process: the first function maps the input to an output, and the second function maps that output to another output.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 27,
+                  "evidence": "A composite function can be viewed in two steps."}]
+    },
+    {
+        "id": "D14", "split": "dev",
+        "question": "What type of symmetry does a function have if its graph is symmetric about the y-axis?",
+        "expected_answer": "Symmetry about the y-axis.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 30,
+                  "evidence": "we say the function has symmetry about the y-axis."}]
+    },
+    {
+        "id": "D15", "split": "dev",
+        "question": "What type of symmetry does an odd function have?",
+        "expected_answer": "An odd function is symmetric about the origin.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 31,
+                  "evidence": "An odd function is symmetric about the origin."}]
+    },
+    {
+        "id": "T01", "split": "test",
+        "question": "What does the slope of a line measure?",
+        "expected_answer": "The steepness and direction of a line.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 39,
+                  "evidence": "The slope measures both the steepness and the direction of a line."}]
+    },
+    {
+        "id": "T02", "split": "test",
+        "question": "What does a zero slope indicate about a line?",
+        "expected_answer": "The line is horizontal.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 39,
+                  "evidence": "If the slope is zero, the line is horizontal."}]
+    },
+    {
+        "id": "T03", "split": "test",
+        "question": "Does a vertical line represent the graph of a function?",
+        "expected_answer": "No. A vertical line does not represent the graph of a function.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 40,
+                  "evidence": "a vertical line does not represent the graph of a function"}]
+    },
+    {
+        "id": "T04", "split": "test",
+        "question": "What is a horizontal asymptote?",
+        "expected_answer": "It is a line that the graph of a function gets closer to as the input values get larger.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 43,
+                  "evidence": "a horizontal asymptote for the function because the graph of the function gets closer to the line as gets larger."}]
+    },
+    {
+        "id": "T05", "split": "test",
+        "question": "What determines the end behavior of a polynomial?",
+        "expected_answer": "The leading term of the polynomial.",
+        "gold": [{"source_id": "openstax_calculus_v1", "page": 43,
+                  "evidence": "the leading term of the polynomial determines the end behavior."}]
+    }
+]
+
+Path("data/questions_openstax_en.json").write_text(
+    json.dumps(questions, ensure_ascii=False, indent=2),
+    encoding="utf-8"
+)
+
+print("Created data/questions_openstax_en.json")
+print("Dev:", sum(q["split"] == "dev" for q in questions))
+print("Test:", sum(q["split"] == "test" for q in questions))

@@ -47,8 +47,17 @@ def validate(chunks, questions):
                 raise ValueError(f"question {q['id']}: gold không nằm trọn trong chunk đúng nguồn/trang")
 
 
+def normalize_text(text):
+    return " ".join(text.split())
+
+
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    return any(
+        chunk['source_id'] == g['source_id']
+        and chunk['page'] == g['page']
+        and normalize_text(g['evidence']) in normalize_text(chunk['text'])
+        for g in gold
+    )
 
 
 class TfidfIndex:
@@ -87,7 +96,7 @@ def pack_context(results, budget=800):
     return '\n\n'.join(blocks), ids
 
 
-def evaluate(index, questions, budget=800):
+def evaluate(index, questions, budget=1800):
     traces = []
     for q in questions:
         start = time.perf_counter()

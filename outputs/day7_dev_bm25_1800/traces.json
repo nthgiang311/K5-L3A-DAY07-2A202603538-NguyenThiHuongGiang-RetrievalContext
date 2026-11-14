@@ -1,0 +1,1142 @@
+[
+  {
+    "query_id": "D01",
+    "split": "dev",
+    "question": "What makes a function a special type of relation?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 16,
+        "evidence": "A function is a special type of relation in which each element of the first set is related to exactly one element of the second set."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p16_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 16,
+        "text": "e ordered pairs where is an element of and is an element\nof is a relation from to A relation from to defines a relationship between those two sets. A function is a\nspecial type of relation in which each element of the first set is related to exactly one element of the second set. The\nelement of the first set is called the input; the element of the second set is called the output. Functions are used all the\ntime in mathematics to describe relationships between two sets. For any function, when we",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 3232
+        },
+        "score": 18.435567996200092,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p42_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 42,
+        "text": "The -intercept is so the equation for this linear function is\nb. To graph use the fact that the graph passes through the origin and has slope\nc. The slope describes the distance (in miles) Jessica runs per minute, or her average velocity.\nPolynomials\nA linear function is a special type of a more general class of functions: polynomials. A polynomial function is any\nfunction that can be written in the form\n(1.7)\nfor some integer and constants where In the case when we allow for if\nthe function is",
+        "metadata": {
+          "section": "1.2",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1489
+        },
+        "score": 13.066486872841745,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p36_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 36,
+        "text": "this relation a\nfunction? Explain why\nor why not.\nb. Consider the relation\nwhere the domain\nvalues are the winners\nand the range is the\ncorresponding years. Is\nthis relation a function?\nExplain why or why not.\n50 . [T] The area of a square\ndepends on the length of\nthe side\na. Write a function\nfor the area of a square.\nb. Find and interpret\nc. Find the exact and the\ntwo-significant-digit\napproximation to the\nlength of the sides of a\nsquare with area 56\nsquare units.\n28 1 ΓÇó Functions and Graphs\nAc",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 979
+        },
+        "score": 11.87682136604894,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p16_fixed_2 | OpenStax Calculus Volume 1 | page 16]\ne ordered pairs where is an element of and is an element\nof is a relation from to A relation from to defines a relationship between those two sets. A function is a\nspecial type of relation in which each element of the first set is related to exactly one element of the second set. The\nelement of the first set is called the input; the element of the second set is called the output. Functions are used all the\ntime in mathematics to describe relationships between two sets. For any function, when we\n\n[openstax_calculus_v1_p42_fixed_0 | OpenStax Calculus Volume 1 | page 42]\nThe -intercept is so the equation for this linear function is\nb. To graph use the fact that the graph passes through the origin and has slope\nc. The slope describes the distance (in miles) Jessica runs per minute, or her average velocity.\nPolynomials\nA linear function is a special type of a more general class of functions: polynomials. A polynomial function is any\nfunction that can be written in the form\n(1.7)\nfor some integer and constants where In the case when we allow for if\nthe function is\n\n[openstax_calculus_v1_p36_fixed_1 | OpenStax Calculus Volume 1 | page 36]\nthis relation a\nfunction? Explain why\nor why not.\nb. Consider the relation\nwhere the domain\nvalues are the winners\nand the range is the\ncorresponding years. Is\nthis relation a function?\nExplain why or why not.\n50 . [T] The area of a square\ndepends on the length of\nthe side\na. Write a function\nfor the area of a square.\nb. Find and interpret\nc. Find the exact and the\ntwo-significant-digit\napproximation to the\nlength of the sides of a\nsquare with area 56\nsquare units.\n28 1 ΓÇó Functions and Graphs\nAc",
+    "context_ids": [
+      "openstax_calculus_v1_p16_fixed_2",
+      "openstax_calculus_v1_p42_fixed_0",
+      "openstax_calculus_v1_p36_fixed_1"
+    ],
+    "context_chars": 1726,
+    "elapsed_ms": 9.224400000675814,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D02",
+    "split": "dev",
+    "question": "What are the input and output of a function?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 16,
+        "evidence": "The element of the first set is called the input; the element of the second set is called the output."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p16_fixed_5",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 16,
+        "text": "t of all real numbers and the rule is to square the input.\nThen, the input is assigned to the output Since every nonnegative real number has a real-value square\nroot, every nonnegative number is an element of the range of this function. Since there is no real number with a square\nthat is negative, the negative real numbers are not elements of the range. We conclude that the range is the set of\nnonnegative real numbers.\nFor a general function with domain we often use to denote the input and to de",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 3232
+        },
+        "score": 13.745135536396802,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p16_fixed_3",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 16,
+        "text": "ships between two sets. For any function, when we know the input, the output is\ndetermined, so we say that the output is a function of the input. For example, the area of a square is determined by its\nside length, so we say that the area (the output) is a function of its side length (the input). The velocity of a ball thrown in\nthe air can be described as a function of the amount of time the ball is in the air. The cost of mailing a package is a\nfunction of the weight of the package. Since funct",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 3232
+        },
+        "score": 13.709444203645768,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p27_fixed_3",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 27,
+        "text": "function with domain such that\n(1.1)\nA composite function can be viewed in two steps. First, the function maps each input in the domain of to its\noutput in the range of Second, since the range of is a subset of the domain of the output is an element\nin the domain of and therefore it is mapped to an output in the range of In Figure 1.12, we see a visual\nimage of a composite function.\nFigure 1.12 For the composite function we have and\n1.1 ΓÇó Review of Functions 19",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1815
+        },
+        "score": 13.250151775866808,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p16_fixed_5 | OpenStax Calculus Volume 1 | page 16]\nt of all real numbers and the rule is to square the input.\nThen, the input is assigned to the output Since every nonnegative real number has a real-value square\nroot, every nonnegative number is an element of the range of this function. Since there is no real number with a square\nthat is negative, the negative real numbers are not elements of the range. We conclude that the range is the set of\nnonnegative real numbers.\nFor a general function with domain we often use to denote the input and to de\n\n[openstax_calculus_v1_p16_fixed_3 | OpenStax Calculus Volume 1 | page 16]\nships between two sets. For any function, when we know the input, the output is\ndetermined, so we say that the output is a function of the input. For example, the area of a square is determined by its\nside length, so we say that the area (the output) is a function of its side length (the input). The velocity of a ball thrown in\nthe air can be described as a function of the amount of time the ball is in the air. The cost of mailing a package is a\nfunction of the weight of the package. Since funct\n\n[openstax_calculus_v1_p27_fixed_3 | OpenStax Calculus Volume 1 | page 27]\nfunction with domain such that\n(1.1)\nA composite function can be viewed in two steps. First, the function maps each input in the domain of to its\noutput in the range of Second, since the range of is a subset of the domain of the output is an element\nin the domain of and therefore it is mapped to an output in the range of In Figure 1.12, we see a visual\nimage of a composite function.\nFigure 1.12 For the composite function we have and\n1.1 ΓÇó Review of Functions 19",
+    "context_ids": [
+      "openstax_calculus_v1_p16_fixed_5",
+      "openstax_calculus_v1_p16_fixed_3",
+      "openstax_calculus_v1_p27_fixed_3"
+    ],
+    "context_chars": 1693,
+    "elapsed_ms": 0.44890000208397396,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "D03",
+    "split": "dev",
+    "question": "What three components does a function consist of?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 16,
+        "evidence": "A function consists of a set of inputs, a set of outputs, and a rule for assigning each input to exactly one output."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p27_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 27,
+        "text": "such that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1815
+        },
+        "score": 7.922141402581616,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p23_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 23,
+        "text": "Figure 1.8 (a) The set of plotted points represents the graph of a function because every vertical line intersects the set of\npoints, at most, once. (b) The set of plotted points does not represent the graph of a function because some vertical lines\nintersect the set of points more than once.\nEXAMPLE 1.3\nFinding Zeros and -Intercepts of a Function\nConsider the function\na. Find all zeros of\nb. Find the -intercept (if any).\nc. Sketch a graph of\nSolution\na. To find the zeros, solve We discover that",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 843
+        },
+        "score": 7.849522888097473,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p22_fixed_5",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "rty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 ΓÇó Functions and Graphs\nAccess for free at openstax.org",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 7.54760812192189,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p27_fixed_2 | OpenStax Calculus Volume 1 | page 27]\nsuch that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f\n\n[openstax_calculus_v1_p23_fixed_0 | OpenStax Calculus Volume 1 | page 23]\nFigure 1.8 (a) The set of plotted points represents the graph of a function because every vertical line intersects the set of\npoints, at most, once. (b) The set of plotted points does not represent the graph of a function because some vertical lines\nintersect the set of points more than once.\nEXAMPLE 1.3\nFinding Zeros and -Intercepts of a Function\nConsider the function\na. Find all zeros of\nb. Find the -intercept (if any).\nc. Sketch a graph of\nSolution\na. To find the zeros, solve We discover that\n\n[openstax_calculus_v1_p22_fixed_5 | OpenStax Calculus Volume 1 | page 22]\nrty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 ΓÇó Functions and Graphs\nAccess for free at openstax.org",
+    "context_ids": [
+      "openstax_calculus_v1_p27_fixed_2",
+      "openstax_calculus_v1_p23_fixed_0",
+      "openstax_calculus_v1_p22_fixed_5"
+    ],
+    "context_chars": 1682,
+    "elapsed_ms": 0.3159000007144641,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "D04",
+    "split": "dev",
+    "question": "What is the domain of a function?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 16,
+        "evidence": "The set of inputs is called the domain of the function."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p26_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 26,
+        "text": "Figure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1191
+        },
+        "score": 10.461205106713585,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p27_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 27,
+        "text": "such that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1815
+        },
+        "score": 10.214284610850688,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p17_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 17,
+        "text": "so visualize a function by plotting points in the coordinate plane where The graph of a\nfunction is the set of all these points. For example, consider the function where the domain is the set\nand the rule is In Figure 1.5, we plot a graph of this function.\nFigure 1.5 Here we see a graph of the function with domain and rule The graph consists of the\npoints for all in the domain.\nEvery function has a domain. However, sometimes a function is described by an equation, as in with no\nspecific domain g",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1767
+        },
+        "score": 10.190394540341925,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p26_fixed_0 | OpenStax Calculus Volume 1 | page 26]\nFigure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by\n\n[openstax_calculus_v1_p27_fixed_2 | OpenStax Calculus Volume 1 | page 27]\nsuch that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f\n\n[openstax_calculus_v1_p17_fixed_1 | OpenStax Calculus Volume 1 | page 17]\nso visualize a function by plotting points in the coordinate plane where The graph of a\nfunction is the set of all these points. For example, consider the function where the domain is the set\nand the rule is In Figure 1.5, we plot a graph of this function.\nFigure 1.5 Here we see a graph of the function with domain and rule The graph consists of the\npoints for all in the domain.\nEvery function has a domain. However, sometimes a function is described by an equation, as in with no\nspecific domain g",
+    "context_ids": [
+      "openstax_calculus_v1_p26_fixed_0",
+      "openstax_calculus_v1_p27_fixed_2",
+      "openstax_calculus_v1_p17_fixed_1"
+    ],
+    "context_chars": 1732,
+    "elapsed_ms": 0.27120000231661834,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "D05",
+    "split": "dev",
+    "question": "What is the range of a function?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 16,
+        "evidence": "The set of outputs is called the range of the function."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p27_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 27,
+        "text": "such that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1815
+        },
+        "score": 10.544494280790522,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p29_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 29,
+        "text": "uate\nd. State the domain and range of\nSolution\na.\nb. The domain of is the set Since the range of is the set the range of\nis the set\nc.\nd. The domain of is the set Since the range of is the set the range of\nis the set\nEXAMPLE 1.9\nApplication Involving a Composite Function\nA store is advertising a sale of off all merchandise. Caroline has a coupon that entitles her to an additional off\nany item, including sale merchandise. If Caroline decides to purchase an item with an original price of dollars,",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1095
+        },
+        "score": 10.485290261776292,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p26_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 26,
+        "text": "Figure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1191
+        },
+        "score": 10.461205106713585,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p27_fixed_2 | OpenStax Calculus Volume 1 | page 27]\nsuch that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f\n\n[openstax_calculus_v1_p29_fixed_1 | OpenStax Calculus Volume 1 | page 29]\nuate\nd. State the domain and range of\nSolution\na.\nb. The domain of is the set Since the range of is the set the range of\nis the set\nc.\nd. The domain of is the set Since the range of is the set the range of\nis the set\nEXAMPLE 1.9\nApplication Involving a Composite Function\nA store is advertising a sale of off all merchandise. Caroline has a coupon that entitles her to an additional off\nany item, including sale merchandise. If Caroline decides to purchase an item with an original price of dollars,\n\n[openstax_calculus_v1_p26_fixed_0 | OpenStax Calculus Volume 1 | page 26]\nFigure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by",
+    "context_ids": [
+      "openstax_calculus_v1_p27_fixed_2",
+      "openstax_calculus_v1_p29_fixed_1",
+      "openstax_calculus_v1_p26_fixed_0"
+    ],
+    "context_chars": 1731,
+    "elapsed_ms": 0.30160000096657313,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "D06",
+    "split": "dev",
+    "question": "Can two different inputs of a function produce the same output?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 17,
+        "evidence": "Although each input can be sent to only one output, two different inputs can be sent to the same output."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p17_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 17,
+        "text": "Figure 1.3 A function maps every element in the domain to exactly one element in the range. Although each input can\nbe sent to only one output, two different inputs can be sent to the same output.\nFigure 1.4 In this case, a graph of a function has a domain of and a range of The independent variable\nis and the dependent variable is\nMEDIA\nVisit this applet link (http://www.openstax.org/l/grapherrors) to see more about graphs of functions.\nWe can also visualize a function by plotting points in the",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1767
+        },
+        "score": 20.266716408369916,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p22_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "is in the range. To graph a function given by a formula, it is helpful to begin by using the formula to create a\ntable of inputs and outputs. If the domain of consists of an infinite number of values, we cannot list all of them, but\nbecause listing some of the inputs and outputs can be very useful, it is often a good way to begin.\nWhen creating a table of inputs and outputs, we typically check to determine whether zero is an output. Those values of\nwhere are called the zeros of a function. For e",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 13.165638663916187,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p16_fixed_4",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 16,
+        "text": "function of the weight of the package. Since functions have so many uses, it is important to have precise definitions and\nterminology to study them.\nDefinition\nA function consists of a set of inputs, a set of outputs, and a rule for assigning each input to exactly one output.\nThe set of inputs is called the domain of the function. The set of outputs is called the range of the function.\nFor example, consider the function where the domain is the set of all real numbers and the rule is to square th",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 3232
+        },
+        "score": 12.639151226153649,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p17_fixed_0 | OpenStax Calculus Volume 1 | page 17]\nFigure 1.3 A function maps every element in the domain to exactly one element in the range. Although each input can\nbe sent to only one output, two different inputs can be sent to the same output.\nFigure 1.4 In this case, a graph of a function has a domain of and a range of The independent variable\nis and the dependent variable is\nMEDIA\nVisit this applet link (http://www.openstax.org/l/grapherrors) to see more about graphs of functions.\nWe can also visualize a function by plotting points in the\n\n[openstax_calculus_v1_p22_fixed_2 | OpenStax Calculus Volume 1 | page 22]\nis in the range. To graph a function given by a formula, it is helpful to begin by using the formula to create a\ntable of inputs and outputs. If the domain of consists of an infinite number of values, we cannot list all of them, but\nbecause listing some of the inputs and outputs can be very useful, it is often a good way to begin.\nWhen creating a table of inputs and outputs, we typically check to determine whether zero is an output. Those values of\nwhere are called the zeros of a function. For e\n\n[openstax_calculus_v1_p16_fixed_4 | OpenStax Calculus Volume 1 | page 16]\nfunction of the weight of the package. Since functions have so many uses, it is important to have precise definitions and\nterminology to study them.\nDefinition\nA function consists of a set of inputs, a set of outputs, and a rule for assigning each input to exactly one output.\nThe set of inputs is called the domain of the function. The set of outputs is called the range of the function.\nFor example, consider the function where the domain is the set of all real numbers and the rule is to square th",
+    "context_ids": [
+      "openstax_calculus_v1_p17_fixed_0",
+      "openstax_calculus_v1_p22_fixed_2",
+      "openstax_calculus_v1_p16_fixed_4"
+    ],
+    "context_chars": 1725,
+    "elapsed_ms": 0.3668000026664231,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D07",
+    "split": "dev",
+    "question": "What are three common ways to represent a function?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 20,
+        "evidence": "Typically, a function is represented using one or more of the following tools:"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p26_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 26,
+        "text": "Figure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1191
+        },
+        "score": 9.932835206362029,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p22_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "it is thrown until it hits the ground is given by the formula When dollars are invested in an\naccount at an annual interest rate compounded continuously, the amount of money after years is given by the\nformula Algebraic formulas are important tools to calculate function values. Often we also represent these\nfunctions visually in graph form.\nGiven an algebraic formula for a function the graph of is the set of points where is in the domain of\nand is in the range. To graph a function given by a fo",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 8.546528759130876,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p21_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 21,
+        "text": "ten useful to\nconnect the dots in the graph, which represent the data from the table. In this example, although we cannot make any\ndefinitive conclusion regarding what the temperature was at any time for which the temperature was not recorded,\ngiven the number of data points collected and the pattern in these points, it is reasonable to suspect that the\ntemperatures at other times followed a similar pattern, as we can see in Figure 1.7.\n1.1 ΓÇó Review of Functions 13",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1369
+        },
+        "score": 8.113897479650989,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p26_fixed_0 | OpenStax Calculus Volume 1 | page 26]\nFigure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by\n\n[openstax_calculus_v1_p22_fixed_1 | OpenStax Calculus Volume 1 | page 22]\nit is thrown until it hits the ground is given by the formula When dollars are invested in an\naccount at an annual interest rate compounded continuously, the amount of money after years is given by the\nformula Algebraic formulas are important tools to calculate function values. Often we also represent these\nfunctions visually in graph form.\nGiven an algebraic formula for a function the graph of is the set of points where is in the domain of\nand is in the range. To graph a function given by a fo\n\n[openstax_calculus_v1_p21_fixed_2 | OpenStax Calculus Volume 1 | page 21]\nten useful to\nconnect the dots in the graph, which represent the data from the table. In this example, although we cannot make any\ndefinitive conclusion regarding what the temperature was at any time for which the temperature was not recorded,\ngiven the number of data points collected and the pattern in these points, it is reasonable to suspect that the\ntemperatures at other times followed a similar pattern, as we can see in Figure 1.7.\n1.1 ΓÇó Review of Functions 13",
+    "context_ids": [
+      "openstax_calculus_v1_p26_fixed_0",
+      "openstax_calculus_v1_p22_fixed_1",
+      "openstax_calculus_v1_p21_fixed_2"
+    ],
+    "context_chars": 1703,
+    "elapsed_ms": 0.31289999969885685,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "D08",
+    "split": "dev",
+    "question": "How can tables and formulas be used together with graphs?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 20,
+        "evidence": "we can plot on a graph the values from a table or create a table from a formula."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p16_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 16,
+        "text": "d examine several ways in which functions are\nrepresentedΓÇönamely, through tables, formulas, and graphs. We study formal notation and terms related to functions.\nWe also define composition of functions and symmetry properties. Most of this material will be a review for you, but it\nserves as a handy reference to remind you of some of the algebraic techniques useful for working with functions.\nFunctions\nGiven two sets and a set with elements that are ordered pairs where is an element of and is an e",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 3232
+        },
+        "score": 11.944606343418387,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p20_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 20,
+        "text": "and range for\nRepresenting Functions\nTypically, a function is represented using one or more of the following tools:\nΓÇó A table\nΓÇó A graph\nΓÇó A formula\nWe can identify a function in each form, but we can also use them together. For instance, we can plot on a graph the\nvalues from a table or create a table from a formula.\nTables\nFunctions described using a table of values arise frequently in real-world applications. Consider the following simple\nexample. We can describe temperature on a given day as",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1510
+        },
+        "score": 9.162520310655257,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p18_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 18,
+        "text": "Γê₧\nIt is important to note that Γê₧ is not a real number. It is used symbolically here to indicate that this set includes all real\nnumbers greater than or equal to zero. Similarly, if we wanted to describe the set of all nonpositive numbers, we could\nwrite\nΓê₧\nHere, the notation Γê₧ refers to negative infinity, and it indicates that we are including all numbers less than or equal to\nzero, no matter how small. The set\nΓê₧ Γê₧\nrefers to the set of all real numbers.\nSome functions are defined using different",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2066
+        },
+        "score": 6.819863616450842,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p16_fixed_1 | OpenStax Calculus Volume 1 | page 16]\nd examine several ways in which functions are\nrepresentedΓÇönamely, through tables, formulas, and graphs. We study formal notation and terms related to functions.\nWe also define composition of functions and symmetry properties. Most of this material will be a review for you, but it\nserves as a handy reference to remind you of some of the algebraic techniques useful for working with functions.\nFunctions\nGiven two sets and a set with elements that are ordered pairs where is an element of and is an e\n\n[openstax_calculus_v1_p20_fixed_1 | OpenStax Calculus Volume 1 | page 20]\nand range for\nRepresenting Functions\nTypically, a function is represented using one or more of the following tools:\nΓÇó A table\nΓÇó A graph\nΓÇó A formula\nWe can identify a function in each form, but we can also use them together. For instance, we can plot on a graph the\nvalues from a table or create a table from a formula.\nTables\nFunctions described using a table of values arise frequently in real-world applications. Consider the following simple\nexample. We can describe temperature on a given day as\n\n[openstax_calculus_v1_p18_fixed_2 | OpenStax Calculus Volume 1 | page 18]\nΓê₧\nIt is important to note that Γê₧ is not a real number. It is used symbolically here to indicate that this set includes all real\nnumbers greater than or equal to zero. Similarly, if we wanted to describe the set of all nonpositive numbers, we could\nwrite\nΓê₧\nHere, the notation Γê₧ refers to negative infinity, and it indicates that we are including all numbers less than or equal to\nzero, no matter how small. The set\nΓê₧ Γê₧\nrefers to the set of all real numbers.\nSome functions are defined using different",
+    "context_ids": [
+      "openstax_calculus_v1_p16_fixed_1",
+      "openstax_calculus_v1_p20_fixed_1",
+      "openstax_calculus_v1_p18_fixed_2"
+    ],
+    "context_chars": 1744,
+    "elapsed_ms": 0.3414999991946388,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D09",
+    "split": "dev",
+    "question": "Can we determine the exact temperature at times when no measurements were recorded?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 21,
+        "evidence": "we cannot make any definitive conclusion regarding what the temperature was at any time for which the temperature was not recorded"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p21_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 21,
+        "text": "ten useful to\nconnect the dots in the graph, which represent the data from the table. In this example, although we cannot make any\ndefinitive conclusion regarding what the temperature was at any time for which the temperature was not recorded,\ngiven the number of data points collected and the pattern in these points, it is reasonable to suspect that the\ntemperatures at other times followed a similar pattern, as we can see in Figure 1.7.\n1.1 ΓÇó Review of Functions 13",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1369
+        },
+        "score": 16.246742652377606,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p20_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 20,
+        "text": "le. We can describe temperature on a given day as a function of time of day. Suppose we record the temperature\nevery hour for a 24-hour period starting at midnight. We let our input variable be the time after midnight, measured in\nhours, and the output variable be the temperature hours after midnight, measured in degrees Fahrenheit. We record\nour data in Table 1.1.\nHours after Midnight Temperature Hours after Midnight Temperature\n0 58 12 84\n1 54 13 85\n2 53 14 85\n3 52 15 83\n4 52 16 82\n5 55 17 80",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1510
+        },
+        "score": 9.085424279750793,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p21_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 21,
+        "text": "Hours after Midnight Temperature Hours after Midnight Temperature\n6 60 18 77\n7 64 19 74\n8 72 20 69\n9 75 21 65\n10 78 22 60\n11 80 23 58\nTable 1.1 Temperature as a Function of Time of Day\nWe can see from the table that temperature is a function of time, and the temperature decreases, then increases, and\nthen decreases again. However, we cannot get a clear picture of the behavior of the function without graphing it.\nGraphs\nGiven a function described by a table, we can provide a visual picture of the",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1369
+        },
+        "score": 8.589957922375264,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p21_fixed_2 | OpenStax Calculus Volume 1 | page 21]\nten useful to\nconnect the dots in the graph, which represent the data from the table. In this example, although we cannot make any\ndefinitive conclusion regarding what the temperature was at any time for which the temperature was not recorded,\ngiven the number of data points collected and the pattern in these points, it is reasonable to suspect that the\ntemperatures at other times followed a similar pattern, as we can see in Figure 1.7.\n1.1 ΓÇó Review of Functions 13\n\n[openstax_calculus_v1_p20_fixed_2 | OpenStax Calculus Volume 1 | page 20]\nle. We can describe temperature on a given day as a function of time of day. Suppose we record the temperature\nevery hour for a 24-hour period starting at midnight. We let our input variable be the time after midnight, measured in\nhours, and the output variable be the temperature hours after midnight, measured in degrees Fahrenheit. We record\nour data in Table 1.1.\nHours after Midnight Temperature Hours after Midnight Temperature\n0 58 12 84\n1 54 13 85\n2 53 14 85\n3 52 15 83\n4 52 16 82\n5 55 17 80\n\n[openstax_calculus_v1_p21_fixed_0 | OpenStax Calculus Volume 1 | page 21]\nHours after Midnight Temperature Hours after Midnight Temperature\n6 60 18 77\n7 64 19 74\n8 72 20 69\n9 75 21 65\n10 78 22 60\n11 80 23 58\nTable 1.1 Temperature as a Function of Time of Day\nWe can see from the table that temperature is a function of time, and the temperature decreases, then increases, and\nthen decreases again. However, we cannot get a clear picture of the behavior of the function without graphing it.\nGraphs\nGiven a function described by a table, we can provide a visual picture of the",
+    "context_ids": [
+      "openstax_calculus_v1_p21_fixed_2",
+      "openstax_calculus_v1_p20_fixed_2",
+      "openstax_calculus_v1_p21_fixed_0"
+    ],
+    "context_chars": 1696,
+    "elapsed_ms": 0.42240000038873404,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D10",
+    "split": "dev",
+    "question": "What is the main rule of the Vertical Line Test?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 22,
+        "evidence": "every vertical line that may be drawn intersects the graph of no more than once."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p22_fixed_5",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "rty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 ΓÇó Functions and Graphs\nAccess for free at openstax.org",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 22.095672673355846,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p22_fixed_4",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "output for each input, the graph of a function can have, at most, one -intercept. If\nis in the domain of a function then has exactly one -intercept. If is not in the domain of then has\nno -intercept. Similarly, for any real number if is in the domain of there is exactly one output and the line\nintersects the graph of exactly once. On the other hand, if is not in the domain of is not defined and the\nline does not intersect the graph of This property is summarized in the vertical line test.\nRule:",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 18.313390008398034,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p40_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 40,
+        "text": "tion the point-slope equation for that linear function.\nSince every nonvertical line is the graph of a linear function, the points on a nonvertical line can be described using the\nslope-intercept or point-slope equations. However, a vertical line does not represent the graph of a function and cannot\nbe expressed in either of these forms. Instead, a vertical line is described by the equation for some constant\nSince neither the slope-intercept form nor the point-slope form allows for vertical line",
+        "metadata": {
+          "section": "1.2",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2068
+        },
+        "score": 13.96477667831553,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p22_fixed_5 | OpenStax Calculus Volume 1 | page 22]\nrty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 ΓÇó Functions and Graphs\nAccess for free at openstax.org\n\n[openstax_calculus_v1_p22_fixed_4 | OpenStax Calculus Volume 1 | page 22]\noutput for each input, the graph of a function can have, at most, one -intercept. If\nis in the domain of a function then has exactly one -intercept. If is not in the domain of then has\nno -intercept. Similarly, for any real number if is in the domain of there is exactly one output and the line\nintersects the graph of exactly once. On the other hand, if is not in the domain of is not defined and the\nline does not intersect the graph of This property is summarized in the vertical line test.\nRule:\n\n[openstax_calculus_v1_p40_fixed_2 | OpenStax Calculus Volume 1 | page 40]\ntion the point-slope equation for that linear function.\nSince every nonvertical line is the graph of a linear function, the points on a nonvertical line can be described using the\nslope-intercept or point-slope equations. However, a vertical line does not represent the graph of a function and cannot\nbe expressed in either of these forms. Instead, a vertical line is described by the equation for some constant\nSince neither the slope-intercept form nor the point-slope form allows for vertical line",
+    "context_ids": [
+      "openstax_calculus_v1_p22_fixed_5",
+      "openstax_calculus_v1_p22_fixed_4",
+      "openstax_calculus_v1_p40_fixed_2"
+    ],
+    "context_chars": 1682,
+    "elapsed_ms": 0.34080000114045106,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D11",
+    "split": "dev",
+    "question": "What does it mean if a vertical line intersects a set of points more than once?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 22,
+        "evidence": "If any vertical line intersects a set of points more than once, the set of points does not represent a function."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p22_fixed_5",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "rty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 ΓÇó Functions and Graphs\nAccess for free at openstax.org",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 37.30453410076518,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p23_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 23,
+        "text": "Figure 1.8 (a) The set of plotted points represents the graph of a function because every vertical line intersects the set of\npoints, at most, once. (b) The set of plotted points does not represent the graph of a function because some vertical lines\nintersect the set of points more than once.\nEXAMPLE 1.3\nFinding Zeros and -Intercepts of a Function\nConsider the function\na. Find all zeros of\nb. Find the -intercept (if any).\nc. Sketch a graph of\nSolution\na. To find the zeros, solve We discover that",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 843
+        },
+        "score": 31.665839747165016,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p22_fixed_4",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 22,
+        "text": "output for each input, the graph of a function can have, at most, one -intercept. If\nis in the domain of a function then has exactly one -intercept. If is not in the domain of then has\nno -intercept. Similarly, for any real number if is in the domain of there is exactly one output and the line\nintersects the graph of exactly once. On the other hand, if is not in the domain of is not defined and the\nline does not intersect the graph of This property is summarized in the vertical line test.\nRule:",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2705
+        },
+        "score": 18.184137074996457,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p22_fixed_5 | OpenStax Calculus Volume 1 | page 22]\nrty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 ΓÇó Functions and Graphs\nAccess for free at openstax.org\n\n[openstax_calculus_v1_p23_fixed_0 | OpenStax Calculus Volume 1 | page 23]\nFigure 1.8 (a) The set of plotted points represents the graph of a function because every vertical line intersects the set of\npoints, at most, once. (b) The set of plotted points does not represent the graph of a function because some vertical lines\nintersect the set of points more than once.\nEXAMPLE 1.3\nFinding Zeros and -Intercepts of a Function\nConsider the function\na. Find all zeros of\nb. Find the -intercept (if any).\nc. Sketch a graph of\nSolution\na. To find the zeros, solve We discover that\n\n[openstax_calculus_v1_p22_fixed_4 | OpenStax Calculus Volume 1 | page 22]\noutput for each input, the graph of a function can have, at most, one -intercept. If\nis in the domain of a function then has exactly one -intercept. If is not in the domain of then has\nno -intercept. Similarly, for any real number if is in the domain of there is exactly one output and the line\nintersects the graph of exactly once. On the other hand, if is not in the domain of is not defined and the\nline does not intersect the graph of This property is summarized in the vertical line test.\nRule:",
+    "context_ids": [
+      "openstax_calculus_v1_p22_fixed_5",
+      "openstax_calculus_v1_p23_fixed_0",
+      "openstax_calculus_v1_p22_fixed_4"
+    ],
+    "context_chars": 1682,
+    "elapsed_ms": 0.6009999997331761,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D12",
+    "split": "dev",
+    "question": "Can a function be increasing on one interval and decreasing on another?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 25,
+        "evidence": "a function can be increasing on some interval or intervals and decreasing over a different interval or intervals."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p25_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 25,
+        "text": "t is important to note, however, that a function can be increasing on\nsome interval or intervals and decreasing over a different interval or intervals. For example, using our temperature\nfunction in Figure 1.6, we can see that the function is decreasing on the interval increasing on the interval\nand then decreasing on the interval We make the idea of a function increasing or decreasing over a particular\ninterval more precise in the next definition.\nDefinition\nWe say that a function is increasing",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1384
+        },
+        "score": 23.878703252639326,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p25_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 25,
+        "text": "n.\nDefinition\nWe say that a function is increasing on the interval if for all\nWe say is strictly increasing on the interval if for all\nWe say that a function is decreasing on the interval if for all\nWe say that a function is strictly decreasing on the interval if for all\nFor example, the function is increasing on the interval Γê₧ Γê₧ because whenever On the\nother hand, the function is strictly decreasing on the interval Γê₧ Γê₧ because whenever\n(Figure 1.11).\n1.1 ΓÇó Review of Functions 17",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1384
+        },
+        "score": 19.41911040425122,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p26_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 26,
+        "text": "Figure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1191
+        },
+        "score": 14.885556973313506,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p25_fixed_1 | OpenStax Calculus Volume 1 | page 25]\nt is important to note, however, that a function can be increasing on\nsome interval or intervals and decreasing over a different interval or intervals. For example, using our temperature\nfunction in Figure 1.6, we can see that the function is decreasing on the interval increasing on the interval\nand then decreasing on the interval We make the idea of a function increasing or decreasing over a particular\ninterval more precise in the next definition.\nDefinition\nWe say that a function is increasing\n\n[openstax_calculus_v1_p25_fixed_2 | OpenStax Calculus Volume 1 | page 25]\nn.\nDefinition\nWe say that a function is increasing on the interval if for all\nWe say is strictly increasing on the interval if for all\nWe say that a function is decreasing on the interval if for all\nWe say that a function is strictly decreasing on the interval if for all\nFor example, the function is increasing on the interval Γê₧ Γê₧ because whenever On the\nother hand, the function is strictly decreasing on the interval Γê₧ Γê₧ because whenever\n(Figure 1.11).\n1.1 ΓÇó Review of Functions 17\n\n[openstax_calculus_v1_p26_fixed_0 | OpenStax Calculus Volume 1 | page 26]\nFigure 1.11 (a) The function is increasing on the interval Γê₧ Γê₧ (b) The function is decreasing\non the interval Γê₧ Γê₧\nCombining Functions\nNow that we have reviewed the basic characteristics of functions, we can see what happens to these properties when we\ncombine functions in different ways, using basic mathematical operations to create new functions. For example, if the\ncost for a company to manufacture items is described by the function and the revenue created by the sale of\nitems is described by",
+    "context_ids": [
+      "openstax_calculus_v1_p25_fixed_1",
+      "openstax_calculus_v1_p25_fixed_2",
+      "openstax_calculus_v1_p26_fixed_0"
+    ],
+    "context_chars": 1727,
+    "elapsed_ms": 0.41620000047259964,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D13",
+    "split": "dev",
+    "question": "How can a composite function be viewed conceptually?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 27,
+        "evidence": "A composite function can be viewed in two steps."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p27_fixed_3",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 27,
+        "text": "function with domain such that\n(1.1)\nA composite function can be viewed in two steps. First, the function maps each input in the domain of to its\noutput in the range of Second, since the range of is a subset of the domain of the output is an element\nin the domain of and therefore it is mapped to an output in the range of In Figure 1.12, we see a visual\nimage of a composite function.\nFigure 1.12 For the composite function we have and\n1.1 ΓÇó Review of Functions 19",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1815
+        },
+        "score": 13.315127711817379,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p29_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 29,
+        "text": "rchase an item with an original price of dollars, how\nmuch will she end up paying if she applies her coupon to the sale price? Solve this problem by using a composite\n1.1 ΓÇó Review of Functions 21",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1095
+        },
+        "score": 8.05488752838489,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p27_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 27,
+        "text": "such that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1815
+        },
+        "score": 8.048418277852189,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p27_fixed_3 | OpenStax Calculus Volume 1 | page 27]\nfunction with domain such that\n(1.1)\nA composite function can be viewed in two steps. First, the function maps each input in the domain of to its\noutput in the range of Second, since the range of is a subset of the domain of the output is an element\nin the domain of and therefore it is mapped to an output in the range of In Figure 1.12, we see a visual\nimage of a composite function.\nFigure 1.12 For the composite function we have and\n1.1 ΓÇó Review of Functions 19\n\n[openstax_calculus_v1_p29_fixed_2 | OpenStax Calculus Volume 1 | page 29]\nrchase an item with an original price of dollars, how\nmuch will she end up paying if she applies her coupon to the sale price? Solve this problem by using a composite\n1.1 ΓÇó Review of Functions 21\n\n[openstax_calculus_v1_p27_fixed_2 | OpenStax Calculus Volume 1 | page 27]\nsuch that for all in the domain of This new function is\ncalled a composite function. We note that since cost is a function of temperature and temperature is a function of time, it\nmakes sense to define this new function It does not make sense to consider because temperature\nis not a function of cost.\nDefinition\nConsider the function with domain and range and the function with domain and range If is a subset\nof then the composite function is the function with domain such that\n(1.1)\nA composite f",
+    "context_ids": [
+      "openstax_calculus_v1_p27_fixed_3",
+      "openstax_calculus_v1_p29_fixed_2",
+      "openstax_calculus_v1_p27_fixed_2"
+    ],
+    "context_chars": 1389,
+    "elapsed_ms": 0.3026999984285794,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D14",
+    "split": "dev",
+    "question": "What type of symmetry does a function have if its graph is symmetric about the y-axis?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 30,
+        "evidence": "we say the function has symmetry about the y-axis."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p30_fixed_2",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 30,
+        "text": "s, it lays exactly on top of the curve to the left of the y-axis. In\nthis case, we say the function has symmetry about the y-axis. On the other hand, consider the function\nshown in Figure 1.13(b). If we take the graph and rotate it about the origin, the new graph will look exactly the\nsame. In this case, we say the function has symmetry about the origin.\nFigure 1.13 (a) A graph that is symmetric about the -axis. (b) A graph that is symmetric about the origin.\nIf we are given the graph of a funct",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2301
+        },
+        "score": 28.669894568469978,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax_calculus_v1_p30_fixed_3",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 30,
+        "text": "t the origin.\nIf we are given the graph of a function, it is easy to see whether the graph has one of these symmetry properties. But\nwithout a graph, how can we determine algebraically whether a function has symmetry? Looking at Figure 1.13 again,\nwe see that since is symmetric about the -axis, if the point is on the graph, the point is on the graph. In\nother words, If a function has this property, we say is an even function, which has symmetry about\nthe y-axis. For example, is even because\nIn c",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2301
+        },
+        "score": 25.96074960888347,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p30_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 30,
+        "text": "has a coupon for an additional off,\nwhat will be the final price for an item that is originally dollars, after applying the coupon to the sale\nprice?\nSymmetry of Functions\nThe graphs of certain functions have symmetry properties that help us understand the function and the shape of its\ngraph. For example, consider the function shown in Figure 1.13(a). If we take the part of the curve\nthat lies to the right of the y-axis and flip it over the y-axis, it lays exactly on top of the curve to the left",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2301
+        },
+        "score": 25.162668204186613,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax_calculus_v1_p30_fixed_2 | OpenStax Calculus Volume 1 | page 30]\ns, it lays exactly on top of the curve to the left of the y-axis. In\nthis case, we say the function has symmetry about the y-axis. On the other hand, consider the function\nshown in Figure 1.13(b). If we take the graph and rotate it about the origin, the new graph will look exactly the\nsame. In this case, we say the function has symmetry about the origin.\nFigure 1.13 (a) A graph that is symmetric about the -axis. (b) A graph that is symmetric about the origin.\nIf we are given the graph of a funct\n\n[openstax_calculus_v1_p30_fixed_3 | OpenStax Calculus Volume 1 | page 30]\nt the origin.\nIf we are given the graph of a function, it is easy to see whether the graph has one of these symmetry properties. But\nwithout a graph, how can we determine algebraically whether a function has symmetry? Looking at Figure 1.13 again,\nwe see that since is symmetric about the -axis, if the point is on the graph, the point is on the graph. In\nother words, If a function has this property, we say is an even function, which has symmetry about\nthe y-axis. For example, is even because\nIn c\n\n[openstax_calculus_v1_p30_fixed_1 | OpenStax Calculus Volume 1 | page 30]\nhas a coupon for an additional off,\nwhat will be the final price for an item that is originally dollars, after applying the coupon to the sale\nprice?\nSymmetry of Functions\nThe graphs of certain functions have symmetry properties that help us understand the function and the shape of its\ngraph. For example, consider the function shown in Figure 1.13(a). If we take the part of the curve\nthat lies to the right of the y-axis and flip it over the y-axis, it lays exactly on top of the curve to the left",
+    "context_ids": [
+      "openstax_calculus_v1_p30_fixed_2",
+      "openstax_calculus_v1_p30_fixed_3",
+      "openstax_calculus_v1_p30_fixed_1"
+    ],
+    "context_chars": 1726,
+    "elapsed_ms": 0.7985990014276467,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "D15",
+    "split": "dev",
+    "question": "What type of symmetry does an odd function have?",
+    "strategy": "bm25",
+    "top_k": 3,
+    "budget_chars": 1800,
+    "gold": [
+      {
+        "source_id": "openstax_calculus_v1",
+        "page": 31,
+        "evidence": "An odd function is symmetric about the origin."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax_calculus_v1_p30_fixed_1",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 30,
+        "text": "has a coupon for an additional off,\nwhat will be the final price for an item that is originally dollars, after applying the coupon to the sale\nprice?\nSymmetry of Functions\nThe graphs of certain functions have symmetry properties that help us understand the function and the shape of its\ngraph. For example, consider the function shown in Figure 1.13(a). If we take the part of the curve\nthat lies to the right of the y-axis and flip it over the y-axis, it lays exactly on top of the curve to the left",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2301
+        },
+        "score": 12.698902069203353,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p30_fixed_4",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 30,
+        "text": "bout\nthe y-axis. For example, is even because\nIn contrast, looking at Figure 1.13 again, if a function is symmetric about the origin, then whenever the point is\non the graph, the point is also on the graph. In other words, If has this property, we say is\nan odd function, which has symmetry about the origin. For example, is odd because\nDefinition\nIf for all in the domain of then is an even function. An even function is symmetric about the\n22 1 ΓÇó Functions and Graphs\nAccess for free at openstax.or",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 2301
+        },
+        "score": 9.71188891685164,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax_calculus_v1_p31_fixed_0",
+        "source_id": "openstax_calculus_v1",
+        "source": "OpenStax Calculus Volume 1",
+        "page": 31,
+        "text": "y-axis.\nIf for all in the domain of then is an odd function. An odd function is symmetric about the\norigin.\nEXAMPLE 1.10\nEven and Odd Functions\nDetermine whether each of the following functions is even, odd, or neither.\na.\nb.\nc.\nSolution\nTo determine whether a function is even or odd, we evaluate and compare it to f(x) and\na. Therefore, is even.\nb. Now, Furthermore, noting that\nwe see that Therefore, is neither even nor odd.\nc. Therefore, is odd.\n1.7 Determine whether is even, odd, or neither.\nO",
+        "metadata": {
+          "section": "1.1",
+          "has_text": true,
+          "page_type": "text",
+          "character_count": 1190
+        },
+        "score": 8.991289991487044,
+        "strategy": "bm25",
+        "hit": true
+      }
+    ],
+    "context": "[openstax_calculus_v1_p30_fixed_1 | OpenStax Calculus Volume 1 | page 30]\nhas a coupon for an additional off,\nwhat will be the final price for an item that is originally dollars, after applying the coupon to the sale\nprice?\nSymmetry of Functions\nThe graphs of certain functions have symmetry properties that help us understand the function and the shape of its\ngraph. For example, consider the function shown in Figure 1.13(a). If we take the part of the curve\nthat lies to the right of the y-axis and flip it over the y-axis, it lays exactly on top of the curve to the left\n\n[openstax_calculus_v1_p30_fixed_4 | OpenStax Calculus Volume 1 | page 30]\nbout\nthe y-axis. For example, is even because\nIn contrast, looking at Figure 1.13 again, if a function is symmetric about the origin, then whenever the point is\non the graph, the point is also on the graph. In other words, If has this property, we say is\nan odd function, which has symmetry about the origin. For example, is odd because\nDefinition\nIf for all in the domain of then is an even function. An even function is symmetric about the\n22 1 ΓÇó Functions and Graphs\nAccess for free at openstax.or\n\n[openstax_calculus_v1_p31_fixed_0 | OpenStax Calculus Volume 1 | page 31]\ny-axis.\nIf for all in the domain of then is an odd function. An odd function is symmetric about the\norigin.\nEXAMPLE 1.10\nEven and Odd Functions\nDetermine whether each of the following functions is even, odd, or neither.\na.\nb.\nc.\nSolution\nTo determine whether a function is even or odd, we evaluate and compare it to f(x) and\na. Therefore, is even.\nb. Now, Furthermore, noting that\nwe see that Therefore, is neither even nor odd.\nc. Therefore, is odd.\n1.7 Determine whether is even, odd, or neither.\nO",
+    "context_ids": [
+      "openstax_calculus_v1_p30_fixed_1",
+      "openstax_calculus_v1_p30_fixed_4",
+      "openstax_calculus_v1_p31_fixed_0"
+    ],
+    "context_chars": 1728,
+    "elapsed_ms": 0.37770000199088827,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  }
+]

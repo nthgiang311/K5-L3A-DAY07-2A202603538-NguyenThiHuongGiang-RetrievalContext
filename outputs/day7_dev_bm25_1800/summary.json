@@ -1,0 +1,12 @@
+{
+  "strategy": "bm25",
+  "split": "dev",
+  "n": 15,
+  "hit1": 8,
+  "hit3": 10,
+  "context_hit": 10,
+  "avg_context_chars": 1691.0666666666666,
+  "median_ms": 0.3668000026664231,
+  "index_seconds": 0.007555199998023454,
+  "service_cost_usd": 0
+}

@@ -1,0 +1,344 @@
+[
+  {
+    "query_id": "T01",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "query": "slope of a line measures",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_calculus_v1_p39_fixed_2",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "e line.\nDefinition\nConsider line passing through points and Let and denote the\nchanges in and respectively. The slope of the line is\n(1.3)\nWe now examine the relationship between slope and the formula for a linear function. Consider the linear function given\nby the formula As discussed earlier, we know the graph of a linear function is given by a line. We can use\nour definition of slope to calculate the slope of this line. As shown, we can determine the slope by calculating\nfor any points and on",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.5870522856712341
+          },
+          {
+            "id": "openstax_calculus_v1_p39_fixed_1",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "is negative, the line\npoints downward when moving from left to right. If the slope is zero, the line is horizontal. To calculate the slope of a\nline, we need to determine the ratio of the change in versus the change in To do so, we choose any two points\nand on the line and calculate In Figure 1.16, we see this ratio is independent of the points\nchosen.\nFigure 1.16 For any linear function, the slope is independent of the choice of points and\non the line.\nDefinition\nConsider line passing through p",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.5854796171188354
+          },
+          {
+            "id": "openstax_calculus_v1_p39_fixed_3",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "ine the slope by calculating\nfor any points and on the line. Evaluating the function at we see that\n1.2 • Basic Classes of Functions 31",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.5245305612403498
+          }
+        ],
+        "context": "[openstax_calculus_v1_p39_fixed_2 | OpenStax Calculus Volume 1 | page 39]\ne line.\nDefinition\nConsider line passing through points and Let and denote the\nchanges in and respectively. The slope of the line is\n(1.3)\nWe now examine the relationship between slope and the formula for a linear function. Consider the linear function given\nby the formula As discussed earlier, we know the graph of a linear function is given by a line. We can use\nour definition of slope to calculate the slope of this line. As shown, we can determine the slope by calculating\nfor any points and on\n\n[openstax_calculus_v1_p39_fixed_1 | OpenStax Calculus Volume 1 | page 39]\nis negative, the line\npoints downward when moving from left to right. If the slope is zero, the line is horizontal. To calculate the slope of a\nline, we need to determine the ratio of the change in versus the change in To do so, we choose any two points\nand on the line and calculate In Figure 1.16, we see this ratio is independent of the points\nchosen.\nFigure 1.16 For any linear function, the slope is independent of the choice of points and\non the line.\nDefinition\nConsider line passing through p\n\n[openstax_calculus_v1_p39_fixed_3 | OpenStax Calculus Volume 1 | page 39]\nine the slope by calculating\nfor any points and on the line. Evaluating the function at we see that\n1.2 • Basic Classes of Functions 31",
+        "context_ids": [
+          "openstax_calculus_v1_p39_fixed_2",
+          "openstax_calculus_v1_p39_fixed_1",
+          "openstax_calculus_v1_p39_fixed_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax_calculus_v1_p39_fixed_1",
+      "openstax_calculus_v1_p39_fixed_2"
+    ],
+    "answer": "The slope of a line measures the ratio of the change in the vertical coordinate (Δy) to the change in the horizontal coordinate (Δx) between any two points on the line, i.e., Δy/Δx. [openstax_calculus_v1_p39_fixed_1] [openstax_calculus_v1_p39_fixed_2]"
+  },
+  {
+    "query_id": "T02",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "query": "zero slope line indicates",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_calculus_v1_p40_fixed_4",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 40,
+            "text": "not both zero. This form is more general because it allows for a vertical line,\nEXAMPLE 1.12\nFinding the Slope and Equations of Lines\nConsider the line passing through the points and as shown in Figure 1.17.\n32 1 • Functions and Graphs\nAccess for free at openstax.org",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 2068
+            },
+            "score": 0.6061794035220858
+          },
+          {
+            "id": "openstax_calculus_v1_p40_fixed_3",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 40,
+            "text": "nor the point-slope form allows for vertical lines, we use the notation\nwhere are both not zero, to denote the standard form of a line.\nDefinition\nConsider a line passing through the point with slope The equation\n(1.4)\nis the point-slope equation for that line.\nConsider a line with slope and -intercept The equation\n(1.5)\nis an equation for that line in slope-intercept form.\nThe standard form of a line is given by the equation\n(1.6)\nwhere and are not both zero. This form is more general because",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 2068
+            },
+            "score": 0.6029819486748021
+          },
+          {
+            "id": "openstax_calculus_v1_p39_fixed_1",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "is negative, the line\npoints downward when moving from left to right. If the slope is zero, the line is horizontal. To calculate the slope of a\nline, we need to determine the ratio of the change in versus the change in To do so, we choose any two points\nand on the line and calculate In Figure 1.16, we see this ratio is independent of the points\nchosen.\nFigure 1.16 For any linear function, the slope is independent of the choice of points and\non the line.\nDefinition\nConsider line passing through p",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.5871408231770512
+          }
+        ],
+        "context": "[openstax_calculus_v1_p40_fixed_4 | OpenStax Calculus Volume 1 | page 40]\nnot both zero. This form is more general because it allows for a vertical line,\nEXAMPLE 1.12\nFinding the Slope and Equations of Lines\nConsider the line passing through the points and as shown in Figure 1.17.\n32 1 • Functions and Graphs\nAccess for free at openstax.org\n\n[openstax_calculus_v1_p40_fixed_3 | OpenStax Calculus Volume 1 | page 40]\nnor the point-slope form allows for vertical lines, we use the notation\nwhere are both not zero, to denote the standard form of a line.\nDefinition\nConsider a line passing through the point with slope The equation\n(1.4)\nis the point-slope equation for that line.\nConsider a line with slope and -intercept The equation\n(1.5)\nis an equation for that line in slope-intercept form.\nThe standard form of a line is given by the equation\n(1.6)\nwhere and are not both zero. This form is more general because\n\n[openstax_calculus_v1_p39_fixed_1 | OpenStax Calculus Volume 1 | page 39]\nis negative, the line\npoints downward when moving from left to right. If the slope is zero, the line is horizontal. To calculate the slope of a\nline, we need to determine the ratio of the change in versus the change in To do so, we choose any two points\nand on the line and calculate In Figure 1.16, we see this ratio is independent of the points\nchosen.\nFigure 1.16 For any linear function, the slope is independent of the choice of points and\non the line.\nDefinition\nConsider line passing through p",
+        "context_ids": [
+          "openstax_calculus_v1_p40_fixed_4",
+          "openstax_calculus_v1_p40_fixed_3",
+          "openstax_calculus_v1_p39_fixed_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax_calculus_v1_p39_fixed_1"
+    ],
+    "answer": "A zero slope indicates that the line is horizontal. [openstax_calculus_v1_p39_fixed_1]"
+  },
+  {
+    "query_id": "T03",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "query": "vertical line graph function definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_calculus_v1_p40_fixed_2",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 40,
+            "text": "tion the point-slope equation for that linear function.\nSince every nonvertical line is the graph of a linear function, the points on a nonvertical line can be described using the\nslope-intercept or point-slope equations. However, a vertical line does not represent the graph of a function and cannot\nbe expressed in either of these forms. Instead, a vertical line is described by the equation for some constant\nSince neither the slope-intercept form nor the point-slope form allows for vertical line",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 2068
+            },
+            "score": 0.6403485154897871
+          },
+          {
+            "id": "openstax_calculus_v1_p39_fixed_0",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "Figure 1.15 These linear functions are increasing or decreasing on and one function is a horizontal line.\nAs suggested by Figure 1.15, the graph of any linear function is a line. One of the distinguishing features of a line is its\nslope. The slope is the change in for each unit change in The slope measures both the steepness and the direction\nof a line. If the slope is positive, the line points upward when moving from left to right. If the slope is negative, the line\npoints downward when moving",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.6379134464885783
+          },
+          {
+            "id": "openstax_calculus_v1_p22_fixed_5",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 22,
+            "text": "rty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 • Functions and Graphs\nAccess for free at openstax.org",
+            "metadata": {
+              "section": "1.1",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 2705
+            },
+            "score": 0.5913067594814145
+          }
+        ],
+        "context": "[openstax_calculus_v1_p40_fixed_2 | OpenStax Calculus Volume 1 | page 40]\ntion the point-slope equation for that linear function.\nSince every nonvertical line is the graph of a linear function, the points on a nonvertical line can be described using the\nslope-intercept or point-slope equations. However, a vertical line does not represent the graph of a function and cannot\nbe expressed in either of these forms. Instead, a vertical line is described by the equation for some constant\nSince neither the slope-intercept form nor the point-slope form allows for vertical line\n\n[openstax_calculus_v1_p39_fixed_0 | OpenStax Calculus Volume 1 | page 39]\nFigure 1.15 These linear functions are increasing or decreasing on and one function is a horizontal line.\nAs suggested by Figure 1.15, the graph of any linear function is a line. One of the distinguishing features of a line is its\nslope. The slope is the change in for each unit change in The slope measures both the steepness and the direction\nof a line. If the slope is positive, the line points upward when moving from left to right. If the slope is negative, the line\npoints downward when moving\n\n[openstax_calculus_v1_p22_fixed_5 | OpenStax Calculus Volume 1 | page 22]\nrty is summarized in the vertical line test.\nRule: Vertical Line Test\nGiven a function every vertical line that may be drawn intersects the graph of no more than once. If any vertical\nline intersects a set of points more than once, the set of points does not represent a function.\nWe can use this test to determine whether a set of plotted points represents the graph of a function (Figure 1.8).\n14 1 • Functions and Graphs\nAccess for free at openstax.org",
+        "context_ids": [
+          "openstax_calculus_v1_p40_fixed_2",
+          "openstax_calculus_v1_p39_fixed_0",
+          "openstax_calculus_v1_p22_fixed_5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax_calculus_v1_p22_fixed_5"
+    ],
+    "answer": "No, a vertical line does not represent the graph of a function because it fails the vertical line test, which requires that every vertical line intersect the graph at most once. [openstax_calculus_v1_p22_fixed_5]"
+  },
+  {
+    "query_id": "T04",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "query": "horizontal asymptote definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_calculus_v1_p43_fixed_1",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 43,
+            "text": "we say approaches two as goes to infinity,” and we write as ∞ The line is a\nhorizontal asymptote for the function because the graph of the function gets closer to the line as gets\nlarger.\nFor other functions, the values may not approach a finite number but instead may become larger for all values of\nas they get larger. In that case, we say approaches infinity as approaches infinity,” and we write ∞ as\n∞ For example, for the function the outputs become larger as the inputs get larger. We can\nconc",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1826
+            },
+            "score": 0.6577667593955994
+          },
+          {
+            "id": "openstax_calculus_v1_p39_fixed_0",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "Figure 1.15 These linear functions are increasing or decreasing on and one function is a horizontal line.\nAs suggested by Figure 1.15, the graph of any linear function is a line. One of the distinguishing features of a line is its\nslope. The slope is the change in for each unit change in The slope measures both the steepness and the direction\nof a line. If the slope is positive, the line points upward when moving from left to right. If the slope is negative, the line\npoints downward when moving",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.431948019026161
+          },
+          {
+            "id": "openstax_calculus_v1_p39_fixed_1",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 39,
+            "text": "is negative, the line\npoints downward when moving from left to right. If the slope is zero, the line is horizontal. To calculate the slope of a\nline, we need to determine the ratio of the change in versus the change in To do so, we choose any two points\nand on the line and calculate In Figure 1.16, we see this ratio is independent of the points\nchosen.\nFigure 1.16 For any linear function, the slope is independent of the choice of points and\non the line.\nDefinition\nConsider line passing through p",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1485
+            },
+            "score": 0.36977219581604004
+          }
+        ],
+        "context": "[openstax_calculus_v1_p43_fixed_1 | OpenStax Calculus Volume 1 | page 43]\nwe say approaches two as goes to infinity,” and we write as ∞ The line is a\nhorizontal asymptote for the function because the graph of the function gets closer to the line as gets\nlarger.\nFor other functions, the values may not approach a finite number but instead may become larger for all values of\nas they get larger. In that case, we say approaches infinity as approaches infinity,” and we write ∞ as\n∞ For example, for the function the outputs become larger as the inputs get larger. We can\nconc\n\n[openstax_calculus_v1_p39_fixed_0 | OpenStax Calculus Volume 1 | page 39]\nFigure 1.15 These linear functions are increasing or decreasing on and one function is a horizontal line.\nAs suggested by Figure 1.15, the graph of any linear function is a line. One of the distinguishing features of a line is its\nslope. The slope is the change in for each unit change in The slope measures both the steepness and the direction\nof a line. If the slope is positive, the line points upward when moving from left to right. If the slope is negative, the line\npoints downward when moving\n\n[openstax_calculus_v1_p39_fixed_1 | OpenStax Calculus Volume 1 | page 39]\nis negative, the line\npoints downward when moving from left to right. If the slope is zero, the line is horizontal. To calculate the slope of a\nline, we need to determine the ratio of the change in versus the change in To do so, we choose any two points\nand on the line and calculate In Figure 1.16, we see this ratio is independent of the points\nchosen.\nFigure 1.16 For any linear function, the slope is independent of the choice of points and\non the line.\nDefinition\nConsider line passing through p",
+        "context_ids": [
+          "openstax_calculus_v1_p43_fixed_1",
+          "openstax_calculus_v1_p39_fixed_0",
+          "openstax_calculus_v1_p39_fixed_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax_calculus_v1_p43_fixed_1"
+    ],
+    "answer": "A horizontal asymptote is a horizontal line that the graph of a function approaches as the input values become very large (positive or negative). The function’s values get closer and closer to this line as the input grows without bound. [openstax_calculus_v1_p43_fixed_1]"
+  },
+  {
+    "query_id": "T05",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "query": "end behavior of a polynomial determined by leading term",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax_calculus_v1_p43_fixed_3",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 43,
+            "text": "mials can be analyzed similarly. Consider a quadratic function If\nthe values ∞ as ∞ If the values as ∞ Since the graph of a quadratic function\nis a parabola, the parabola opens upward if the parabola opens downward if (See Figure 1.19(a).)\nNow consider a cubic function If then ∞ as ∞ and as\nIf then as ∞ and ∞ as As we can see from both of these graphs,\nthe leading term of the polynomial determines the end behavior. (See Figure 1.19(b).)\n1.2 • Basic Classes of Functions 35",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1826
+            },
+            "score": 0.5565308664161494
+          },
+          {
+            "id": "openstax_calculus_v1_p43_fixed_2",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 43,
+            "text": "ecome larger as the inputs get larger. We can\nconclude that the function approaches infinity as approaches infinity, and we write ∞ as ∞\nThe behavior as ∞ and the meaning of ∞ as ∞ or ∞ can be defined similarly. We can\ndescribe what happens to the values of as ∞ and as ∞ as the end behavior of the function.\nTo understand the end behavior for polynomial functions, we can focus on quadratic and cubic functions. The behavior\nfor higher-degree polynomials can be analyzed similarly. Consider a quadra",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1826
+            },
+            "score": 0.5176577280555811
+          },
+          {
+            "id": "openstax_calculus_v1_p44_fixed_3",
+            "source_id": "openstax_calculus_v1",
+            "source": "OpenStax Calculus Volume 1",
+            "page": 44,
+            "text": "tances, it is possible to find the -intercepts by factoring the polynomial to find its zeros. In other\ncases, it is impossible to calculate the exact values of the -intercepts. However, as we see later in the text, in cases such\nas this, we can use analytical tools to approximate (to a very high degree) where the -intercepts are located. Here we\nfocus on the graphs of polynomials for which we can calculate their zeros explicitly.\nEXAMPLE 1.14\nGraphing Polynomial Functions\nFor the following funct",
+            "metadata": {
+              "section": "1.2",
+              "has_text": true,
+              "page_type": "text",
+              "character_count": 1998
+            },
+            "score": 0.46282198803555974
+          }
+        ],
+        "context": "[openstax_calculus_v1_p43_fixed_3 | OpenStax Calculus Volume 1 | page 43]\nmials can be analyzed similarly. Consider a quadratic function If\nthe values ∞ as ∞ If the values as ∞ Since the graph of a quadratic function\nis a parabola, the parabola opens upward if the parabola opens downward if (See Figure 1.19(a).)\nNow consider a cubic function If then ∞ as ∞ and as\nIf then as ∞ and ∞ as As we can see from both of these graphs,\nthe leading term of the polynomial determines the end behavior. (See Figure 1.19(b).)\n1.2 • Basic Classes of Functions 35\n\n[openstax_calculus_v1_p43_fixed_2 | OpenStax Calculus Volume 1 | page 43]\necome larger as the inputs get larger. We can\nconclude that the function approaches infinity as approaches infinity, and we write ∞ as ∞\nThe behavior as ∞ and the meaning of ∞ as ∞ or ∞ can be defined similarly. We can\ndescribe what happens to the values of as ∞ and as ∞ as the end behavior of the function.\nTo understand the end behavior for polynomial functions, we can focus on quadratic and cubic functions. The behavior\nfor higher-degree polynomials can be analyzed similarly. Consider a quadra\n\n[openstax_calculus_v1_p44_fixed_3 | OpenStax Calculus Volume 1 | page 44]\ntances, it is possible to find the -intercepts by factoring the polynomial to find its zeros. In other\ncases, it is impossible to calculate the exact values of the -intercepts. However, as we see later in the text, in cases such\nas this, we can use analytical tools to approximate (to a very high degree) where the -intercepts are located. Here we\nfocus on the graphs of polynomials for which we can calculate their zeros explicitly.\nEXAMPLE 1.14\nGraphing Polynomial Functions\nFor the following funct",
+        "context_ids": [
+          "openstax_calculus_v1_p43_fixed_3",
+          "openstax_calculus_v1_p43_fixed_2",
+          "openstax_calculus_v1_p44_fixed_3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax_calculus_v1_p43_fixed_3",
+      "openstax_calculus_v1_p43_fixed_2"
+    ],
+    "answer": "The end behavior of a polynomial is determined by its leading term, which dictates how the function behaves as the input grows large in either direction. [openstax_calculus_v1_p43_fixed_3] [openstax_calculus_v1_p43_fixed_2]"
+  }
+]
