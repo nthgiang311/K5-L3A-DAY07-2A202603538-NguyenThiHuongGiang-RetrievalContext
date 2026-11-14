@@ -150,8 +150,10 @@ def main():
     questions = json.loads(args.questions.read_text(encoding="utf-8"))
 
     selected = [
-        q for q in questions if q.get("split") == args.split
-    ]
+	    q for q in questions
+	    if q.get("split") == args.split
+	    and q.get("answerable", True)
+	]
 
     validate(chunks, selected)
 
