@@ -195,6 +195,24 @@
     ]
   },
   {
+  "id": "D16",
+  "split": "dev",
+  "question": "How is the derivative of a function defined using a limit?",
+  "expected_answer": "",
+  "answerable": false,
+  "absence_reason": "The available corpus does not cover the limit definition of the derivative.",
+  "gold": []
+},
+{
+  "id": "D17",
+  "split": "dev",
+  "question": "How is a definite integral defined using Riemann sums?",
+  "expected_answer": "",
+  "answerable": false,
+  "absence_reason": "The available corpus does not cover definite integrals or Riemann sums.",
+  "gold": []
+},
+  {
     "id": "T01",
     "split": "test",
     "question": "What does the slope of a line measure?",
@@ -258,5 +276,23 @@
         "evidence": "the leading term of the polynomial determines the end behavior."
       }
     ]
-  }
+  },
+  {
+  "id": "T06",
+  "split": "test",
+  "question": "What does the Fundamental Theorem of Calculus state?",
+  "expected_answer": "",
+  "answerable": false,
+  "absence_reason": "The available corpus does not cover the Fundamental Theorem of Calculus.",
+  "gold": []
+},
+{
+  "id": "T07",
+  "split": "test",
+  "question": "Which differentiation rule is used to differentiate a composite function?",
+  "expected_answer": "",
+  "answerable": false,
+  "absence_reason": "The corpus mentions composite functions but does not cover the chain rule for differentiation.",
+  "gold": []
+}
 ]
